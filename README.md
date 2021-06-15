@@ -27,11 +27,11 @@ Hyperspectral Toolbox for MATLAB (contains useful operators, transformations and
 This project included a slight change to the PCA formula. While this may not affect the results dramatically, this is worth noting for future research purposes.
 The PCA projection used in this project was:
 
-![Original PCA](http://latex.codecogs.com/svg.latex?X_%7BPCA%7D%3D+%28X+-+m%29+%5Cphi%5E%7B-1%7D+V_q)
+![Changed PCA](https://latex.codecogs.com/svg.latex?X_%7BPCA%7D%3D%28X-m%29%5Cphi%5E%7B-1%7DV_q)
 
 where the correct formula is:
 
-![Original PCA](http://latex.codecogs.com/svg.latex?X_%7BPCA%7D%3D+%28X+-+m%29+%5Cphi%5E%7B-%5Cfrac%7B1%7D%7B2%7D%7D+V_q)
+![Original PCA](https://latex.codecogs.com/svg.latex?X_%7BPCA%7D%3D%28X-m%29%5Cphi%5E%7B-%5Cfrac%7B1%7D%7B2%7D%7DV_q)
 
 ## Suggested Reading
 1.	Alan P. Schaum and Alan D. Stocker "Joint hyperspectral subspace detection derived from a Bayesian likelihood ratio test", Proc. SPIE 4725, Algorithms and Technologies for Multispectral, Hyperspectral, and Ultraspectral Imagery VIII, (2 August 2002)
